@@ -37,7 +37,7 @@ function mapData() {
             }
             //add key
             url = document.getElementById("map").src;
-            url += "&sensor=false&key=AIzaSyDnYtTyeFZyG6FFKom5UlfRA2ox2JjwrX0";
+            url += "&sensor=false&key=api_key; // api key is intentionally removed
             //change image url
             document.getElementById("map").src = url;
             next();
@@ -51,7 +51,7 @@ function mapData() {
 }
 
 
-let url = "https://maps.googleapis.com/maps/api/geocode/json?address=Northgate+SA&bounds=36.47,-84.72%7C43.39,-65.90&key=AIzaSyDnYtTyeFZyG6FFKom5UlfRA2ox2JjwrX0";
+let url = "https://maps.googleapis.com/maps/api/geocode/json?address=Northgate+SA&bounds=36.47,-84.72%7C43.39,-65.90&key=api key"; //api key is intentionally removed
 
 //version();
 function next() {
@@ -78,7 +78,7 @@ function next() {
                             let yavg = 0;
                             var url = "https://maps.googleapis.com/maps/api/geocode/json?address=";
                             url += data[i].address;
-                            url += "&bounds=36.47,-84.72%7C43.39,-65.90&key=AIzaSyDnYtTyeFZyG6FFKom5UlfRA2ox2JjwrX0";
+                            url += "&bounds=36.47,-84.72%7C43.39,-65.90&key=api key"; //api key is intentioanlly removed
                             fetch(url)
                                 .then(res => res.json())
                                 .then((out) => {
