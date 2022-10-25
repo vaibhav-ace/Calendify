@@ -42,7 +42,9 @@ Furthermore, location planning system in involved in this project where each use
 Existing admin details:
 
 Username: admin
+
 Password: password123
+
 
 
 ![image](https://user-images.githubusercontent.com/99183587/183972691-bb9b8a77-94fc-4f7d-b8ea-53da558976a9.png)
