@@ -10,7 +10,8 @@ I worked on the front-end of the project; the files for HTML, CSS and JavaScript
 
 The entire front end is developed from scratch with the help of other team members.
 
-The API Key and Client ID and intentionally removed from js files to prevent malicious misuse of information.
+The API Key and Client ID are intentionally removed from .js files to prevent malicious misuse of information.
+Please provide your own API key to in the .js files where you see the comment "the client id and api key are removed to prevent misuse".
 
 Full project can be found at : https://github.com/dominico-github/Calendify
 
