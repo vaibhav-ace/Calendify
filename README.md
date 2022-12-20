@@ -26,7 +26,15 @@ Available Features:
 
 Users can sign up and log in to the system to:
 
-o Sign up/log in. o Manage their user information. o Create a new event. o Generate a link for people without accounts. o Specify their availability for an event. o Link their calendar to automatically check their availability. o See times when everyone is available for an event. o Confirm/finalise an event time. o Add the finalised event to their calendar.
+- Sign up/log in
+- Manage their user information
+- Create a new event
+- Generate a link for people without accounts
+- Specify their availability for an event
+- Link their calendar to automatically check their availability
+- See times when everyone is available for an event
+- Confirm/finalise an event time
+- Add the finalised event to their calendar
 
 System Admins can log in to:
 
